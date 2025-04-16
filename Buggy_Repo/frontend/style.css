@@ -33,3 +33,30 @@ a{
     font-size: 28px;
     font-weight: bold;
 }
+
+#search{
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#source{
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid;
+    font-size: 15px;
+    margin: 5px;
+}
+
+#filterButton{
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+    background-color: #5812e3;
+    color: white;
+}
