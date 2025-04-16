@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from models import User
-from json import ObjectId
+from bson import ObjectId
 
 router = APIRouter()
 
