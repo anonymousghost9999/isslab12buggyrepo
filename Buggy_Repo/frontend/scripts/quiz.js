@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "http://localhost:8000"; 
 
 let score = 0;
 let highScore = 0;
@@ -36,7 +36,7 @@ function updateAttempts() {
 }
 
 searchInput.addEventListener("input", updateAttempts);
-// how is life ?
+
 async function loadHighScore() {
   try {
     const res = await fetch(`${BASE_URL}/quiz/highscore`);
@@ -57,7 +57,6 @@ async function loadQuestion() {
     currentQuestion = data;
 
     questionDiv.textContent = data.text;
-
     form.innerHTML = data.options.map(option => `
       <label>
         <input type="radio" name="answer" value="${option}" required>
@@ -99,9 +98,10 @@ form.addEventListener("submit", async (e) => {
     attemptHistory.push({
       question: currentQuestion.text,
       answer,
-      result: data.is_correct ? "✅ Correct" : `❌ Wrong (Correct: ${data.correct_answer})`
+      result: data.is_correct
+        ? "✅ Correct"
+        : `❌ Wrong (Correct: ${data.correct_answer})`
     });
-
     updateAttempts();
 
     if (data.is_correct) {

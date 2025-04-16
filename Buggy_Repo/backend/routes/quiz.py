@@ -1,10 +1,9 @@
-from fastapi import APIRouter, Body
+from fastapi import APIRouter
 from pydantic import BaseModel
 import random
 
 router = APIRouter(tags=["quiz"])
 
-# I actually could have added this to a collection in mongodb
 questions = [
     {
         "id": 1,
@@ -40,7 +39,6 @@ questions = [
 
 game_state = {"high_score": 0}
 
-# Define a model for the answer submission
 class AnswerSubmission(BaseModel):
     id: int
     answer: str
@@ -48,7 +46,7 @@ class AnswerSubmission(BaseModel):
 
 @router.get("/question")
 async def get_question():
-    # Use random.choice() to get a random question
+    # Use random.choice() so the user gets different questions
     question = random.choice(questions)
     return {
         "id": question["id"],
@@ -56,26 +54,22 @@ async def get_question():
         "options": question["options"]
     }
 
-@router.post("/answer")  # Changed to POST to match frontend
+@router.post("/answer")
 async def submit_answer(data: AnswerSubmission):
-    question_id = data.id
-    answer = data.answer
-    score = data.score
-
-    question = next((q for q in questions if q["id"] == question_id), None)
+    question = next((q for q in questions if q["id"] == data.id), None)
     if not question:
         return {"error": "Invalid question ID"}
 
-    is_correct = answer == question["correct"]
+    is_correct = data.answer == question["correct"]
     if is_correct:
-        score += 10
-        if score > game_state["high_score"]:
-            game_state["high_score"] = score
+        data.score += 10
+        if data.score > game_state["high_score"]:
+            game_state["high_score"] = data.score
 
     return {
         "is_correct": is_correct,
         "correct_answer": question["correct"],
-        "score": score,
+        "score": data.score,
         "high_score": game_state["high_score"]
     }
 
