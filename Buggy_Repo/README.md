@@ -38,7 +38,7 @@
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
 | 1   | Style.css is not filled                  |         Narain|    Whole Team|
-| 2   |                                          |               |              |
+| 2   |scripts tags in profile.html              |Viswaj         |Viswaj        |
 | 3   |                                          |               |              |
 | 4   |                                          |               |              |
 | 5   |                                          |               |              |
