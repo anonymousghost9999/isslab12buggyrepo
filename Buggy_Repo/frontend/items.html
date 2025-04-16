@@ -17,7 +17,14 @@
   <!-- fuck I think I deleted a container, god help me-->
    <!-- added container to items.html-->
   <div class="container">
-    <p>Hello</p>
+    <form id="itemForm">
+      <input id="name" placeholder="Name" required />
+      <input id="description" placeholder="Description" required />
+      <button type="submit">Add</button>
+    </form>
+    <input id="search" placeholder="Search items..." />
+    <ul id="itemList"></ul>
+    <p id="itemCount">Total items: 0</p>    
   </div>
   <script src="scripts/items.js"></script>
 </body>
