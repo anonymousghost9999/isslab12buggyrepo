@@ -57,7 +57,7 @@
 | 18  | container backend in items                          |Viswaj                  |Viswaj              |
 | 19  |changes name to str from int int models.py| Harsha        | Harsha       |
 | 20  |users.py delete is deleting all           |Kartikeya      |Kartikeya     |
-| 21  |                                          |               |              |
+| 21  |profile.js-id typo                                     |Viswaj                  |Viswaj              |
 | 22  |                                          |               |              |
 | 23  |                                          |               |              |
 | 24  |                                          |               |              |
