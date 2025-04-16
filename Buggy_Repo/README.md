@@ -45,7 +45,7 @@
 | 6   |added quiz to navbar in all the pages     | Harsha        | Harsha       |
 | 7   |added analytics link to quiz page         | Harsha        | Harsha       |
 | 8   |added missing container tag in items.html | Parth         |Parth         |
-| 9   |                                          |               |              |
+| 9   |set baseURL in analytics.js from 8001 to 8000|Viswaj               |Viswaj              |
 | 10  |                                          |               |              |
 | 11  |                                          |               |              |
 | 12  |                                          |               |              |
