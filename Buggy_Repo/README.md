@@ -50,7 +50,7 @@
 | 11  |applications/html changed to ../json      |Parth          |Parth         |
 | 12  |FIxed baseurl from 8001 to 8000 in analytics.js                         |Viswaj               |Viswaj              |
 | 13  |Fixed analytics.py return                 |Dhiraj               |    Dhiraj          |
-| 14  |                                          |               |              |
+| 14  |Added compulsory name and desc fields     |Parth          |Parth         |
 | 15  |                                          |               |              |
 | 16  |                                          |               |              |
 | 17  |                                          |               |              |

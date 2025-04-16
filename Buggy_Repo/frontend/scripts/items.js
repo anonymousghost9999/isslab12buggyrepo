@@ -36,6 +36,10 @@ document.getElementById("itemForm").addEventListener("submit", async (e) => {
   e.preventDefault();
   const name = document.getElementById("name").value;
   const description = document.getElementById("description").value;
+  if(!name || !description) {
+    alert("Please fill out both fields.");    //added compulsory field check
+    return;
+  }
   await fetch(`${baseURL}/items`, {
     method: "POST",
     headers: { "Content-Type": "application/json" }, //changed from applications/html to application/json
