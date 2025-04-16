@@ -54,7 +54,7 @@
 | 15  |Fixed quiz.py question update and main.py |Dhiraj         |Dhiraj              |
 | 16  |Item class is missing inheritance from BaseModel   |  Harsha         |  Harsha            |
 | 17  |news filtering not being done, button isnt there|Kartikeya|Kartikeya     |
-| 18  |                                          |               |              |
+| 18  |Missing a container in items                          |Viswaj                  |Viswaj              |
 | 19  |                                          |               |              |
 | 20  |                                          |               |              |
 | 21  |                                          |               |              |
