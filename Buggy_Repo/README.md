@@ -39,9 +39,9 @@
 |-----|------------------------------------------|---------------|--------------|
 | 1   | Style.css is not filled                  |         Narain|    Whole Team|
 | 2   |scripts tags in profile.html              |Viswaj         |Viswaj        |
-| 3   |analytics has no links for other sites     |Dhiraj         |Dhiraj        |
+| 3   |analytics has no links for other sites    | Dhiraj        |Dhiraj        |
 | 4   |added news tag to quiz.html               | Parth         | Parth        |
-| 5   |                                          |               |              |
+| 5   |meta charset not defined in index.html    | Kartikeya     | Kartikeya    |
 | 6   |                                          |               |              |
 | 7   |                                          |               |              |
 | 8   |                                          |               |              |
