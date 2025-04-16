@@ -27,7 +27,11 @@
 ### Add the names of the members and roll numbers of your team below
 
 - Name : Roll Number
+-  Chitluri Dhiraj : 2024101047
+- Parth Shashank Dhodhapkar : 2024111009
+- Mathamsetty Viswaj : 2024101080
 - Yakkala Viswanadha Kartikeya : 2024111033
+- G Sai Sri Harsha : 2024101034
 
 ### Table to keep track
 
