@@ -39,7 +39,7 @@
 |-----|------------------------------------------|---------------|--------------|
 | 1   | Style.css is not filled                  |         Narain|    Whole Team|
 | 2   |scripts tags in profile.html              |Viswaj         |Viswaj        |
-| 3   |                                          |               |              |
+| 3   |analytics has no links for other sites     |Dhiraj         |Dhiraj        |
 | 4   |                                          |               |              |
 | 5   |                                          |               |              |
 | 6   |                                          |               |              |
