@@ -45,9 +45,9 @@
 | 6   |added quiz to navbar in all the pages     | Harsha        | Harsha       |
 | 7   |added analytics link to quiz page         | Harsha        | Harsha       |
 | 8   |added missing container tag in items.html | Parth         |Parth         |
-| 9   |changed POST to DELETE in items.js         Parth           Parth                       |               |              |
-| 10  |                                          |               |              |
-| 11  |                                          |               |              |
+| 9   |changed POST to DELETE in items.js        |Parth          |Parth         |
+| 10  |in users.py from bson changed to from json|Kartikeya      |Kartikeya     |
+| 11  |get_users is a post request in users.py   |Kartikeya      |Kartikeya     |
 | 12  |                                          |               |              |
 | 13  |                                          |               |              |
 | 14  |                                          |               |              |
