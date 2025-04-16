@@ -59,7 +59,7 @@
 | 20  |users.py delete is deleting all           |Kartikeya      |Kartikeya     |
 | 21  |profile.js-id typo                                     |Viswaj                  |Viswaj, Dhiraj              |
 | 22  |profile.js base url               |Dhiraj               | Dhiraj             |
-| 23  |                                          |               |              |
+| 23  |profile.js filteredUsers delete method is given PATCH|Kartikeya    |Kartikeya    |
 | 24  |                                          |               |              |
 | 25  |                                          |               |              |
 | 26  |                                          |               |              |
