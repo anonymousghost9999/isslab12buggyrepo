@@ -48,7 +48,7 @@
 | 9   |changed POST to DELETE in items.js        |Parth          |Parth         |
 | 10  |in users.py from bson changed to from json|Kartikeya      |Kartikeya     |
 | 11  |get_users is a post request in users.py   |Kartikeya      |Kartikeya     |
-| 12  |                                          |               |              |
+| 12  |applications/html changed to /json        |Parth          |Parth         |
 | 13  |                                          |               |              |
 | 14  |                                          |               |              |
 | 15  |                                          |               |              |
