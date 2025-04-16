@@ -56,7 +56,7 @@
 | 17  |news filtering not being done, button isnt there|Kartikeya|Kartikeya     |
 | 18  | container backend in items                          |Viswaj                  |Viswaj              |
 | 19  |changes name to str from int int models.py| Harsha        | Harsha       |
-| 20  |                                          |               |              |
+| 20  |users.py delete is deleting all           |Kartikeya      |Kartikeya     |
 | 21  |                                          |               |              |
 | 22  |                                          |               |              |
 | 23  |                                          |               |              |
