@@ -55,7 +55,7 @@
 | 16  |Item class is missing inheritance from BaseModel   |  Harsha         |  Harsha            |
 | 17  |news filtering not being done, button isnt there|Kartikeya|Kartikeya     |
 | 18  | container backend in items                          |Viswaj                  |Viswaj              |
-| 19  |                                          |               |              |
+| 19  |changes name to str from int int models.py| Harsha        | Harsha       |
 | 20  |                                          |               |              |
 | 21  |                                          |               |              |
 | 22  |                                          |               |              |
