@@ -49,7 +49,7 @@
 | 10  |get_users is a post request in users.py   |Kartikeya      |Kartikeya     |
 | 11  |applications/html changed to ../json      |Parth          |Parth         |
 | 12  |FIxed baseurl from 8001 to 8000 in analytics.js                         |Viswaj               |Viswaj              |
-| 13  |                                          |               |              |
+| 13  |Fixed analytics.py return                 |Dhiraj               |    Dhiraj          |
 | 14  |                                          |               |              |
 | 15  |                                          |               |              |
 | 16  |                                          |               |              |
