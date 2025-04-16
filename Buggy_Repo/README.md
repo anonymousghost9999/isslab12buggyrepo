@@ -42,7 +42,7 @@
 | 3   |analytics has no links for other sites    | Dhiraj        |Dhiraj        |
 | 4   |added news tag to quiz.html               | Parth         | Parth        |
 | 5   |meta charset not defined in index.html    | Kartikeya     | Kartikeya    |
-| 6   |                                          |               |              |
+| 6   |added quiz to navbar in all the pages     | Harsha        | Harsha       |
 | 7   |                                          |               |              |
 | 8   |                                          |               |              |
 | 9   |                                          |               |              |
