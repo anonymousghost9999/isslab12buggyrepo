@@ -44,7 +44,7 @@
 | 5   |meta charset not defined in index.html    | Kartikeya     | Kartikeya    |
 | 6   |added quiz to navbar in all the pages     | Harsha        | Harsha       |
 | 7   |added analytics link to quiz page         | Harsha        | Harsha       |
-| 8   |                                          |               |              |
+| 8   |added missing container tag in items.html | Parth         |Parth         |
 | 9   |                                          |               |              |
 | 10  |                                          |               |              |
 | 11  |                                          |               |              |
