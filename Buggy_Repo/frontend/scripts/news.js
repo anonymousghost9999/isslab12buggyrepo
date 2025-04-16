@@ -64,5 +64,22 @@ async function loadNews(searchTerm = "", source = "all", reset = false) {
   }
 }
 
+document.getElementById("filterButton").addEventListener("click", () => {
+  const search = document.getElementById("search").value;
+  const source = document.getElementById("source").value;
+  loadNews(search, source, true);  // `true` to reset previous results
+});
 
-loadNews();
+document.getElementById("search").addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    const search = document.getElementById("search").value;
+    const source = document.getElementById("source").value;
+    loadNews(search, source, true);  // true to reset the article list
+  }
+});
+
+document.getElementById("source").addEventListener("change", (e) => {
+  const source = e.target.value;
+  const search = document.getElementById("search").value;
+  loadNews(search, source, true); // 'true' to reset the article list
+});

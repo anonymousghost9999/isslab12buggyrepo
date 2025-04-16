@@ -53,7 +53,7 @@
 | 14  |Added compulsory name and desc fields     |Parth          |Parth         |
 | 15  |Fixed quiz.py question update and main.py |Dhiraj         |Dhiraj              |
 | 16  |Item class is missing inheritance from BaseModel   |  Harsha         |  Harsha            |
-| 17  |                                          |               |              |
+| 17  |news filtering not being done, button isnt there|Kartikeya|Kartikeya     |
 | 18  |                                          |               |              |
 | 19  |                                          |               |              |
 | 20  |                                          |               |              |
