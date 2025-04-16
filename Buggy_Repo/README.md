@@ -52,7 +52,7 @@
 | 13  |Fixed analytics.py return                 |Dhiraj               |    Dhiraj          |
 | 14  |Added compulsory name and desc fields     |Parth          |Parth         |
 | 15  |Fixed quiz.py question update and main.py |Dhiraj         |Dhiraj              |
-| 16  |                                          |               |              |
+| 16  |Item class is missing inheritance from BaseModel   |  Harsha         |  Harsha            |
 | 17  |                                          |               |              |
 | 18  |                                          |               |              |
 | 19  |                                          |               |              |
